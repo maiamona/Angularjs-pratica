@@ -1,4 +1,4 @@
-angular.module("meuMulo", ['ngRoute', 'ngMaterial'])
+angular.module("meuMulo", ['ngRoute'])
 .config(function ($routeProvider) {
     $routeProvider
     .when('/home', {
